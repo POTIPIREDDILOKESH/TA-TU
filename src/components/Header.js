@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container flex flex-col items-start justify-between p-6 mx-auto md:flex-row">
         <Link to="/" className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
           {/* Logo image removed */}
-          <span className="text-2xl font-bold">Turn</span> {/* Added text as logo */}
+          <span className="text-2xl font-bold">TablesTurn</span> {/* Added text as logo */}
         </Link>
         <nav className="flex flex-wrap items-center justify-center pl-6 ml-6 text-base border-l border-gray-200 md:mr-auto">
           <Link to="/" className="mr-5 font-medium hover:text-gray-900">Home</Link>
@@ -23,6 +23,8 @@ const Header = () => {
       </div>
     </header>
   );
+
+  
 };
 
 export default Header;
